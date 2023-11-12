@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>PDQ</projectKey>
+    <exportDate>2023-11-12 17:03:46 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login/BDD" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="111971638" key="PDQ-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>gilberto souza</createdBy>
+            <createdOn>2023-11-12 16:37:30 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login/BDD]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar um login - BDD]]></name>
+            <objective><![CDATA[Realizar o cadastro do usuario]]></objective>
+            <owner>5c8ea1ea1b780c2c5d7becec</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de login
+
+And não esteja cadastrado no sistema
+
+When clicar em 'criar conta'
+
+Then será redirecionado para uma tela de criação de nova conta]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="111971721" key="PDQ-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>gilberto souza</createdBy>
+            <createdOn>2023-11-12 16:52:15 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login/BDD]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro tenta fazer login - BDD]]></name>
+            <owner>5c8ea1ea1b780c2c5d7becec</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de login
+
+And adicione um username nao cadastrado
+
+When clicar em 'login'
+
+Then uma mensagem surgirá avisando que a conta não existe]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

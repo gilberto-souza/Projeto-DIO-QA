@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>PDQ</projectKey>
+    <exportDate>2023-11-12 17:04:35 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login/Step by Step" index="1"/>
+    </folders>
+    <testCases>
+        <testCase id="111971690" key="PDQ-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>gilberto souza</createdBy>
+            <createdOn>2023-11-12 16:44:31 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login/Step by Step]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro tenta fazer login  - Step BY Step]]></name>
+            <owner>5c8ea1ea1b780c2c5d7becec</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar url x]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve acessar tela de Login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usuario digita username e password nao cadastro]]></description>
+                        <expectedResult><![CDATA[uma mensagem surgir&aacute; avisando que a conta n&atilde;o existe]]></expectedResult>
+                        <testData><![CDATA[Username:'aa' password:'aa']]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="111971733" key="PDQ-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>gilberto souza</createdBy>
+            <createdOn>2023-11-12 16:55:07 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login/Step by Step]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar um login - Step by Step]]></name>
+            <owner>5c8ea1ea1b780c2c5d7becec</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Cliente acessa url x]]></description>
+                        <expectedResult><![CDATA[Retornado a tela de login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica em 'criar conta']]></description>
+                        <expectedResult><![CDATA[Retornado tela de cadastro de usu&aacute;rio]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
